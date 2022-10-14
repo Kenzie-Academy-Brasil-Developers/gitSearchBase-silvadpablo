@@ -1,0 +1,18 @@
+.user-input {
+    background-color: var(--color-grey-1);
+    border: var(--input-border) var(--color-transparency-4);
+    border-radius: var(--input-radius);
+    width: var(--input-width);
+    line-height: var(--line-height-1);
+    font-size: var(--font-text-3);
+    color: var(--color-transparency-2);
+    margin-left: var(--login-margin-left);
+    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    outline: none;
+}
+
+.user-input:focus {
+    border-color: var(--color-grey-7);
+}

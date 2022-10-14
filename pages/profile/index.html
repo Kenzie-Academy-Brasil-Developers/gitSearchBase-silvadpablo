@@ -4,12 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/displays.css" />
+    <link rel="stylesheet" href="/styles/buttons.css" />
+    <link rel="stylesheet" href="/styles/texts.css" />
+    <link rel="stylesheet" href="/styles/cards.css" />
     <link rel="stylesheet" href="index.css" />
     <title>Nome do usuário Github</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <div class="container">
+        <header id="user-header" class="flex justify-between">
+          <div class="user-buttons flex justify-between items-center">
+            <button class="btn btn-big-1">Email</button>
+            <button id="switch-button" class="btn btn-big-2">Trocar de usuário</button>
+          </div>
+        </header>
+
+        <ul class="flex wrap all-cards">
+        </ul>
+      </div>
+    </main>
+    <script src="../../scripts/profileHeader.js"></script>
+    <script src="../../scripts/profileRepos.js"></script>
+    <script src="../../scripts/events.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

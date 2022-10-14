@@ -1,0 +1,91 @@
+.home-title-1 {
+    font-size: var(--font-title-1);
+    color: var(--color-grey-7);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-1);
+    padding-left: var(--home-padding-left);
+}
+
+.home-text {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-1);
+    padding-left: var(--home-padding-left);
+    padding-right: 122px;
+    padding-top: 37px;
+}
+
+.home-profiles {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-medium);
+    padding-left: var(--home-padding-left);
+    padding-top: 10px;
+    margin-right: 19px;
+}
+
+.profile-title {
+    font-size: var(--font-title-2);
+    margin-left: var(--login-margin-left);
+}
+
+
+.input-label {
+    font-family: var(--font-family);
+    font-size: var(--font-text-3);
+    color: var(--color-grey-7);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-1);
+    margin-top: 45px;
+    margin-bottom: 16px;
+    margin-left: var(--login-margin-left);
+}
+
+.user-name {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-bold);
+}
+
+.user-job {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-transparency-2);
+}
+
+.all-cards {
+    gap: 14px;
+}
+
+.card-title {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-medium);
+    margin-top: 40px;
+    padding-left: var(--card-padding-left);
+}
+
+.card-info {
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-transparency-1);
+    padding-left: var(--card-padding-left);
+    padding-right: var(--card-padding-left);
+}
+
+.card-buttons {
+    padding-left: var(--card-padding-left);
+    gap: 14px;
+    padding-bottom: 40px;
+}
+
+.alert {
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-alert);
+}
+
+.not-found {
+    font-size: var(--font-text-3);
+    color: var(--color-alert);
+    margin-left: var(--login-margin-left);
+    margin-top: 16px;
+}
+

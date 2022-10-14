@@ -1,0 +1,11 @@
+.card {
+    border: var(--card-border) var(--color-transparency-5);
+    border-radius: var(--button-radius);
+    width: var(--card-width);
+    height: var(--card-height);
+}
+
+.card:hover {
+    background-color: var(--color-grey-1);
+    border-color: var(--color-grey-7);
+}

@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root{
     --color-brand-1: #C2255C;
@@ -14,4 +10,51 @@
     --color-grey-6:  #A6A8A9;
     --color-grey-7:  #FFFFFF;
     --color-alert:   #C22554;
+    --color-transparency-1: rgba(255, 255, 255, 0.6);
+    --color-transparency-2: rgba(255, 255, 255, 0.5);
+    --color-transparency-3: rgba(255, 255, 255, 0.35);
+    --color-transparency-4: rgba(255, 255, 255, 0.12);
+    --color-transparency-5: rgba(255, 255, 255, 0.1);
+
+
+    --font-family: 'Inter', sans-serif;
+
+    --font-text-1: 1.25rem;
+    --font-text-2: 1rem;
+    --font-text-3: 0.875rem;
+    --font-title-1: 2rem;
+    --font-title-2: 1.5rem;
+    --line-height-1: 150%;
+    
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    --input-width: 316px;
+    --input-border: 1px solid;
+    --card-border: 2px solid;
+    --input-radius: 4px;
+    
+    --button-radius: 8px;
+    --button-small-padding: 0px 8px;
+    --button-big-padding: 10px 20px;
+    --button-small-line-height: 1.063rem;
+    --button-profile-padding: 10px 93px;
+
+    --main-width: 100wv;
+    --main-home-height: 100vh;
+    --main-profile-height: 100wh;
+    --card-width: 381px;
+    --card-height: 243px;
+
+    --home-padding-left: 121px;
+    --login-margin-left: 189px;
+    --card-padding-left: 27px;
+
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-grey-7);
 }

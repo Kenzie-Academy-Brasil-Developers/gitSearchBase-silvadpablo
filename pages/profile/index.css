@@ -1,1 +1,29 @@
-/* Desenvolva sua estilização aqui...*/
+main {
+    width: var(--main-width);
+    height: var(--main-profile-height);
+    margin: 0 auto;
+    background-color: var(--color-grey-2);
+    padding-top: 60px;
+}
+
+.container {
+    width: 784px;
+    margin: 0 auto;
+}
+
+.user-buttons {
+    gap: 14px;
+}
+
+.user-pic {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-grey-3);
+    border-radius: 100%;
+    margin-right: 20px;
+    border: var(--card-border) var(--color-brand-2);
+}
+
+header {
+    margin-bottom: 70px;
+}

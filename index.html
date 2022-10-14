@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/displays.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/texts.css" />
+    <link rel="stylesheet" href="./styles/inputs.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main class="flex">
+      <section class="title flex flex-col justify-center">
+        <h1 class="home-title-1">Git Search</h1>
+        <p class="home-text">Encontre e se conecte com profissionais de forma rápida e fácil</p>
+        <div class="recent flex items-center">
+          <p class="home-profiles">Achados recentemente:</p>
+          <ul id="recent-users" class="flex items-center">
+          </ul>
+        </div>
+      </section>
+      <section class="login flex flex-col justify-center">
+        <h2 class="profile-title">Procurar por um usuário</h2>
+        <label class="input-label" for="input-user">Usuário Github</label>
+        <input class="user-input" type="text" name="input-user" id="input-user" placeholder="Digite um usuário do github aqui...">
+        <button id="btn-find" class="btn btn-big-1 btn-profile"> <span class="btn-text">Ver perfil do github</span></button>
+      </section>
+    </main>
+
+    <script src="./scripts/events.js"></script>
+    <script src="./pages/home/index.js"></script>
+  </body>
+</html>
