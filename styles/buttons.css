@@ -49,7 +49,7 @@
     position: relative;
 }
 
-.btn-profile:invalid {
+.btn-profile:disabled {
     background-color: rgba(214, 51, 108, 0.4);
     color: var(--color-transparency-3);
 }

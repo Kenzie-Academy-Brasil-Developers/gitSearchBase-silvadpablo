@@ -2,6 +2,11 @@ let findButton = document.getElementById("btn-find")
 let switchButton = document.getElementById("switch-button")
 let inputUser = document.getElementById("input-user")
 
+if (inputUser) {
+    findButton.disabled = true
+    inputUser.addEventListener("keyup", enableButton)
+}
+
 if (findButton) {
     findButton.addEventListener("click", (event) => {
         fetch(`https://api.github.com/users/${inputUser.value}`)
@@ -39,4 +44,12 @@ if (switchButton) {
         localStorage.removeItem("GitSearchUserName")
         location.replace("../../index.html")
     })
+}
+
+function enableButton() {
+    if (inputUser.value == "") {
+        findButton.disabled = true
+    } else {
+        findButton.disabled = false
+    }
 }
